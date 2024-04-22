@@ -1,0 +1,128 @@
+varible:which is used to store data is called as varaibles
+         or
+        which varies(changes) the values is called as varaible
+
+
+int a;--varaible declartion
+ a=50;---varaible initilization
+ a=500;--varaible reinitilzation
+int a=100;--VD+VI
+
+types of varibles:
+1.local varibles
+2.global varaibles
+
+local varibles:the varibles which are inside the class and inside the method/block/constructor is called 
+
+block --a group of statment with in starting and ending flowerbrace
+example:
+        if(){
+             satments 1
+             satments 1
+
+          }
+
+constructor:
+  same as classname
+
+
+
+{}--flower braces
+[]--square braces
+()--brackets
+
+example for Local Varibles
+=============================
+public class LocalVaribles {
+	
+	LocalVaribles(){
+		int r=600;//local
+	}
+	
+	static {
+		int g=700;//local
+	}
+	
+	public static void main(String[] args) {
+		int y=40;//
+		if(true) {
+		   System.out.println("hi");	
+		   System.out.println("hello");	
+		   System.out.println("bye");	
+		   int b=100+200;//local
+		}
+		
+	}
+
+}
+
+Global varibles: 
+1.varibles which are inside the class and outside method/block/constructor is called as global varibles
+Note: global varibles is also called as instance varaibles
+
+exapmles:
+package variblesabout;
+
+public class GlobalVariales {
+	int a=500;
+	GlobalVariales(){
+		
+	}
+	int z=600;
+	public static void main(String[] args) {
+		
+	}
+	int e=5000;
+	static {
+			
+	}
+	int q=3000;
+
+}
+
+Check the differeces
+=========================
+
+public class demo {
+   int a=500;//global
+   int d=500;//global
+     void m1(int f,int u) {
+    	 
+    	 System.out.println(f+u);//
+    	 //f u --local varaibles
+    	 if(true) {
+    		 int j=5000;//local
+    	 }
+    	 int i=550;//local
+     }
+     int m=44;//global
+	public static void main(String[] args) {
+		//args local varibles
+		int r=600;//local
+		if(true) {
+			int p=55;//local
+		}
+		int w=55;//local
+	}
+	int c=44;//global
+	static {
+		int y=770;//local
+		int t=600;//local
+	}
+	
+	 int l=6;//global	
+}
+
+global varibles default values:
+
+byte --0
+short-0
+int -0
+float--0.0
+double--0.0
+long-0
+
+string--null
+
+
+
